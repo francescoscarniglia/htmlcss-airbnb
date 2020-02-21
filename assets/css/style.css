@@ -16,7 +16,7 @@ h4 {
 
 #main-content {
   /* background-color: #fff; */
-  width: 90vw; /* riempie per 80 la width di viewport */
+  width: 100vw; /* riempie per 100 la width di viewport */
   height: 100vh; /* riempie per 100 la height di viewport */
   position: relative; /*questo è il riferimento per città-italiane*/
   margin: 5px auto;
@@ -24,20 +24,18 @@ h4 {
 
 #citta-italiane {
   background: #fff;
-  width: 25%; /* riempie 20% del suo contenitore */
+  width: 100%; /* riempie 100% del suo contenitore */
   height: auto;
   position: absolute;
   left: 0;
-  /*right: 0;*/  /*posso decidere se visualizzare le città sulla destra (per
-  questo motivo ho impostato una vw di 90 al main-content)*/
-  /* border:5px solid white;  se voglio il bordo bianco*/
+
 
 }
 
 .singolacitta {
 
   width: 100%; /* riempie tutto il suo contenitore */
-  height: 300px;
+  height: 100%;
   position: relative; /*diventa il riferimento per il titolo*/
   color:#fff;
   text-shadow: 1px 2px #000;
@@ -55,8 +53,8 @@ h4 {
 }
 
 .overlay {
-  width: 100%; /*la massima percentuale per riempire il contenitore  che lo racchiude*/
-  height: 100%;/*la massima percentuale per riempire il contenitore  che lo racchiude*/
+  width: 100vw;
+  height: 100vh;
   background: rgba(0,0,0,0.3);
 }
 
