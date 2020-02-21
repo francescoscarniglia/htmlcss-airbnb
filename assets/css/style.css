@@ -12,7 +12,7 @@ h4 {
   font-weight: 900;
   font-family: serif;
   text-transform: uppercase;
-  
+
 }
 
 #main-content {
@@ -56,7 +56,7 @@ h4 {
 .overlay {
   width: 100vw;
   height: 100vh;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.4);
 }
 
 #roma {
@@ -78,9 +78,4 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-/* dimunuisco la trasparenza di overlay sul passaggio del mouse  */
-.singolacitta:hover .overlay {
-  background: rgba(0, 0, 0, 0.5);
 }
