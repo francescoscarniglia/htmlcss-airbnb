@@ -40,7 +40,7 @@ h4 {
   position: relative; /*diventa il riferimento per il titolo*/
   color:#fff;
   text-shadow: 1px 2px #000;
-  /* margin: 0px 0px 5px;  per aggiungere il borbo bianco mi occorre che ogni singola avere dello spazio sotto ogni città*/
+  /* margin: 0px 0px 5px;  per aggiungere il borbo bianco mi occorre che ogni singola città deve avere dello spazio sotto*/
 
 }
 
