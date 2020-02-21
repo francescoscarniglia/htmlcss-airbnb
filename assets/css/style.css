@@ -60,21 +60,21 @@ h4 {
 }
 
 #roma {
-  background-image: url('../img/roma-colosseo.jpg');
+  background-image: url('../img/roma-colosseoHD.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #milano {
-  background-image: url('../img/milano-duomo.jpg');
+  background-image: url('../img/milano-duomoHD.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #verona {
-  background-image: url('../img/verona-arena.jpg');
+  background-image: url('../img/verona-arenaHD.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
