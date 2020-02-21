@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body{
@@ -11,7 +12,7 @@ h4 {
   font-weight: 900;
   font-family: serif;
   text-transform: uppercase;
-  line-height: 10px;
+  
 }
 
 #main-content {
@@ -19,7 +20,7 @@ h4 {
   width: 100vw; /* riempie per 100 la width di viewport */
   height: 100vh; /* riempie per 100 la height di viewport */
   position: relative; /*questo è il riferimento per città-italiane*/
-  margin: 5px auto;
+  margin: auto;
 }
 
 #citta-italiane {
