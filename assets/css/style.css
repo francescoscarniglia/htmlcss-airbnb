@@ -11,6 +11,7 @@ h4 {
   font-weight: 900;
   font-family: serif;
   text-transform: uppercase;
+  line-height: 10px;
 }
 
 #main-content {
