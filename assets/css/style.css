@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0,70,120);
+}
+
+h1,
+h4 {
+  font-weight: 900;
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+#main-content {
+  /* background-color: #fff; */
+  width: 90vw; /* riempie per 80 la width di viewport */
+  height: 100vh; /* riempie per 100 la height di viewport */
+  position: relative; /*questo è il riferimento per città-italiane*/
+  margin: 5px auto;
+}
+
+#citta-italiane {
+  background: #fff;
+  width: 25%; /* riempie 20% del suo contenitore */
+  height: auto;
+  position: absolute;
+  left: 0;
+  /*right: 0;*/  /*posso decidere se visualizzare le città sulla destra (per
+  questo motivo ho impostato una vw di 90 al main-content)*/
+  /* border:5px solid white;  se voglio il bordo bianco*/
+
+}
+
+.singolacitta {
+
+  width: 100%; /* riempie tutto il suo contenitore */
+  height: 300px;
+  position: relative; /*diventa il riferimento per il titolo*/
+  color:#fff;
+  text-shadow: 1px 2px #000;
+  /* margin: 0px 0px 5px;  per aggiungere il borbo bianco mi occorre che ogni singola avere dello spazio sotto ogni città*/
+
+}
+
+.titolo-citta {
+  position: absolute; /*è assoluto rispetto a singola-citta*/
+  top: 50%; /* in percentuale del suo contenitore singola-citta */
+  left: 50%;/* in percentuale del suo contenitore singola-citta */
+  text-align: center;
+  transform: translate(-50%, -50%); /* allineo correttamente al centro portando
+  indietro di 50% (ovvero il valore della sua metà) sulle x e sulle y  */
+}
+
+.overlay {
+  width: 100%; /*la massima percentuale per riempire il contenitore  che lo racchiude*/
+  height: 100%;/*la massima percentuale per riempire il contenitore  che lo racchiude*/
+  background: rgba(0,0,0,0.3);
+}
+
+#roma {
+  background-image: url('../img/roma-colosseo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#milano {
+  background-image: url('../img/milano-duomo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#verona {
+  background-image: url('../img/verona-arena.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* dimunuisco la trasparenza di overlay sul passaggio del mouse  */
+.singolacitta:hover .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
